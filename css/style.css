@@ -1,0 +1,129 @@
+/* Author: Sabarinath G */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open-Sans, Sans-serif;
+}
+
+.back-1 {
+    background-image: url("../images/background/agency-slider-04.jpg");
+}
+.back {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.back-2 {
+    background-image: url("../images/background/restaurant-about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+.book {
+    width: fit-content;
+}
+.side {
+    width: 2%;
+    stroke: #fff;
+}
+.bld {
+    font-size: 55px;
+}
+.clr p {
+    color: white;
+}
+.arrow {
+    width: 10%;
+    stroke: rgb(240, 187, 28);
+}
+.fit {
+    width: fit-content;
+}
+.marg {
+    margin-top: 70px !important;
+}
+.pad-2 {
+    padding-top: 150px !important;
+}
+.padd-2 {
+    padding: 75px 200px 0 200px;
+}
+
+.caro {
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 100%;
+    color: blueviolet;
+}
+.clr-2 {
+    color: rgb(156, 130, 106);
+}
+.caro-1 {
+    height: 70vh;
+}
+.back-3 {
+    background-image: url("../images/background/restaurant-menu-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 140vh;
+}
+.back-4 {
+    background-image: linear-gradient(
+            to bottom,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)
+        ),
+        url("../images/background/hero-bg9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+}
+.filler {
+    filter: saturate(4);
+}
+.back-5 {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* min-height: 80vh; */
+}
+.back-6 {
+    background-color: rgb(249, 243, 235);
+    /* min-height: 70vh; */
+    /* padding: 75px 25px !important; */
+}
+.back-7 {
+    background-image: linear-gradient(
+            to bottom,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)
+        ),
+        url("../images/background/hero-bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.bor {
+    border-bottom: dotted 1px rgb(78, 77, 77);
+}
+.size {
+    width: 20px;
+}
+
+@media screen and (max-width: 792px) {
+    .padd-2 {
+        padding: 75px 0px 0px 0px;
+    }
+
+    #carouselExampleIndicators {
+        padding: 0 0 75px 0;
+    }
+}
